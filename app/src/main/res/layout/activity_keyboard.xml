@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:keyBackground="@color/yellow"
+        android:keyTextColor="@color/black"
+        android:keyTextSize="25sp"
+        android:background="@color/grey" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="54dp"
+        android:layout_marginEnd="39dp"
+        android:text="Carousel" />
+
+
+</RelativeLayout>
